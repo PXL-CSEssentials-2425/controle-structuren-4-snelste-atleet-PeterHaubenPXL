@@ -1,0 +1,23 @@
+﻿<Window x:Class="SnelsteAtleet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SnelsteAtleet"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="700">
+    <Grid Margin="0,0,10,0">
+        <Label Content="Nieuwe atleet: " HorizontalAlignment="Left" Height="31" Margin="118,66,0,0" VerticalAlignment="Top" Width="112"/>
+        <Label Content="Totaal aantal seconden: " HorizontalAlignment="Left" Height="31" Margin="52,122,0,0" VerticalAlignment="Top" Width="178"/>
+        
+        <TextBox HorizontalAlignment="Left" Margin="235,70,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="171"/>
+        <TextBox HorizontalAlignment="Left" Margin="235,126,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="171"/>
+        <TextBox HorizontalAlignment="Left" Height="206" Margin="65,179,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="341"/>
+        
+        <Button Click="newButton_Click"  Name="newButton" Padding="10" Content="Button" HorizontalAlignment="Left" Margin="464,125,0,0" VerticalAlignment="Top" Width="183"/>
+        <Button Click="fastedAtleetButton_Click"  Name="fastedAtleetButton" Padding="10" Content="Button" HorizontalAlignment="Left" Margin="464,0,0,0" VerticalAlignment="Center" Width="183"/>
+        <Button Click="cleanButton_Click"  Name="cleanButton" Padding="10" Content="Button" HorizontalAlignment="Left" Margin="464,260,0,0" VerticalAlignment="Top" Width="183"/>
+        <Button Click="closeButton_Click"  Name="closeButton" Padding="10" Content="Button" HorizontalAlignment="Left" Margin="464,328,0,0" VerticalAlignment="Top" Width="183"/>
+
+    </Grid>
+</Window>
