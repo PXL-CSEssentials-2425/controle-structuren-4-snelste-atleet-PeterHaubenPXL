@@ -21,17 +21,12 @@ namespace SnelsteAtleet
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void newButton_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void fastedAtleetButton_Click(object sender, RoutedEventArgs e)
+        private void fastestAthleteButton_Click(object sender, RoutedEventArgs e)
         {
 
         }
@@ -45,5 +40,7 @@ namespace SnelsteAtleet
         {
             this.Close();
         }
+
     }
+
 }

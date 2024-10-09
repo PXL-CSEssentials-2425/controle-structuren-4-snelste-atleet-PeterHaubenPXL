@@ -10,12 +10,12 @@
         <Label Content="Nieuwe atleet: " HorizontalAlignment="Left" Height="31" Margin="118,66,0,0" VerticalAlignment="Top" Width="112"/>
         <Label Content="Totaal aantal seconden: " HorizontalAlignment="Left" Height="31" Margin="52,122,0,0" VerticalAlignment="Top" Width="178"/>
         
-        <TextBox HorizontalAlignment="Left" Margin="235,70,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="171"/>
-        <TextBox HorizontalAlignment="Left" Margin="235,126,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="171"/>
-        <TextBox HorizontalAlignment="Left" Height="206" Margin="65,179,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="341"/>
+        <TextBox Name="nameTextBox" HorizontalAlignment="Left" Margin="235,70,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="171"/>
+        <TextBox Name="timeTextBox" HorizontalAlignment="Left" Margin="235,126,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="171"/>
+        <TextBox Name="resultTextBox" HorizontalAlignment="Left" Height="206" Margin="65,179,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="341"/>
         
         <Button Click="newButton_Click"  Name="newButton" Padding="10" Content="Button" HorizontalAlignment="Left" Margin="464,125,0,0" VerticalAlignment="Top" Width="183"/>
-        <Button Click="fastedAtleetButton_Click"  Name="fastedAtleetButton" Padding="10" Content="Button" HorizontalAlignment="Left" Margin="464,0,0,0" VerticalAlignment="Center" Width="183"/>
+        <Button Click="fastestAthleteButton_Click"  Name="fastestAthleteButton" Padding="10" Content="Button" HorizontalAlignment="Left" Margin="464,0,0,0" VerticalAlignment="Center" Width="183"/>
         <Button Click="cleanButton_Click"  Name="cleanButton" Padding="10" Content="Button" HorizontalAlignment="Left" Margin="464,260,0,0" VerticalAlignment="Top" Width="183"/>
         <Button Click="closeButton_Click"  Name="closeButton" Padding="10" Content="Button" HorizontalAlignment="Left" Margin="464,328,0,0" VerticalAlignment="Top" Width="183"/>
 
